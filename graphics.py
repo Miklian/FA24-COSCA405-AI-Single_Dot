@@ -1,7 +1,7 @@
 from tkinter import *
 import time
 class Window:
-    def __init__ (self, w=700, h=700):
+    def __init__ (self, w=500, h=500):
         
         self.root = Tk()
         self.canvas = Canvas (self.root, width = w, height=h)
