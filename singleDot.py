@@ -63,7 +63,7 @@ for episode in range(100):
                 bestState = s
             
         # 3) Write Bellman equation V[s] = reward(s) + gamma max(V of all neighbors)
-        V[currentState] = p.reward(s) + gamma * maxV
+        V[s] = p.reward(s) + gamma * maxV
 
         # Leave this part unchanged
         r = random.random()
