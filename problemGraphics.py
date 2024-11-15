@@ -1,5 +1,4 @@
 from graphics import Window
-
 class pacmanGraphic(Window):
     xStep = 40
     yStep = 40
